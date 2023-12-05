@@ -1,0 +1,7 @@
+version: '3'
+services:
+  app:
+    build: .            #build from current catalog
+    image: app:python   #name
+    ports:
+      - 8080:8080
