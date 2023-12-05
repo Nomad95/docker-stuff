@@ -1,0 +1,5 @@
+version: '3'
+services:
+  app:
+    volumes:
+      - ./app.js:/app/app.js      #the .:/app would overwrite all files that were created by npm install
