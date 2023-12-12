@@ -1,0 +1,5 @@
+version: '3'
+services:
+  app:
+    volumes:
+      - ./src:/app:ro # ro = read only. nothing will modify the source code of our app
