@@ -1,0 +1,9 @@
+version: '3'
+services:
+  cli:
+    image: redis:6
+    command: redis-cli -h redis   # will allow to execute the redis-cli in redis container
+  redisinsight:
+    image: redislabs/redisinsight
+    ports:
+      - 8080:8001
